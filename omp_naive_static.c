@@ -30,7 +30,7 @@ long int i, total = 0;
 		
     total += 1;    /* Acrescenta o dois, que também é primo */
     t_fim = omp_get_wtime();
-    printf("Quant. de primos entre 1 e %ld: %ld \n", N, total);
+    printf("Quant. de primos entre 1 e %d: %ld \n", N, total);
     printf("Tempo de execução: %f \n", t_fim-t_inicio);
     return(0);
 }
