@@ -1,0 +1,1 @@
+# openmp_prime_numbers_simulation
